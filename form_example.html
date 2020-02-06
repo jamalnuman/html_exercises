@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <form action="/bricks" method="post"> <!-- action is a url and method is a verb..thses are needed for a web request -->
+    <div>
+      Color: <input type="text" name="brick_color"><!-- brick_color is the name of the params..Color is the name of the field -->
+    </div>
+    <div>
+      Brand: <input type="text" name="brick_brand"><!-- input tags, like image tags have no closing tags -->
+    </div>
+    <input type="submit" value="Create a brick"><!-- when the button is clicked, the post method is used to send a request to the brick url..all these inputs are sent as strings. -->
+  </form>
+</body>
+</html>
